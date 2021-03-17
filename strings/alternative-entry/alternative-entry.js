@@ -8,6 +8,10 @@ function test1() {
     console.log(alternativeEntry('1a2b3c4d5e'))  // => '1A2B3C4D5E'
 }
 
+/**
+ * @param word {string}
+ * @returns {string}
+ */
 function alternativeEntry(word = '') {
     const str = word.toString();
     const arr = str.split('')
