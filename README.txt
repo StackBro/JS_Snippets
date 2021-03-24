@@ -12,3 +12,8 @@ git push -u origin main //we have main branch
 
 If you already create you local branch, then you need to pull request, before you are pushing(if you are working not alone in this project)
 git pull-> git add -> git commit -> git push
+
+
+Removing folder in main branch
+git rm -r myfolder
+git commit -m "myfolder is deleted"
