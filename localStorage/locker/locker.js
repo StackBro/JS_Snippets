@@ -1,4 +1,3 @@
-
 let checkPass = () => {
     if (document.querySelector('.hidden') === undefined) {
         let newElement = document.createElement('div');
