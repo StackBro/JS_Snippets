@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+}
+
+/* === [START]Tabs === */
+.tabs-wrapper{
+    display: flex;
+    flex-basis: 50%;
+}
+.tab-content{
+    width: 100%;
+    display: none;
+    padding: 20px;
+    background-color: #eee;
+}
+.tab{
+    display: inline-block;
+    text-align: center;
+    padding: 10px 30px;
+}
+.tab-input{
+    opacity: 0;
+    position: absolute;
+    left: -9000px;
+    top: 0;
+}
+#tab-1:checked ~ label[for=tab-1],
+#tab-2:checked ~ label[for=tab-2],
+#tab-3:checked ~ label[for=tab-3],
+#tab-4:checked ~ label[for=tab-4]
+{
+    background-color: #eee;
+}
+#tab-1:checked ~ .tab-content-1,
+#tab-2:checked ~ .tab-content-2,
+#tab-3:checked ~ .tab-content-3,
+#tab-4:checked ~ .tab-content-4
+{
+     display: block;
+}
+
+/* === [END]Tabs === */
