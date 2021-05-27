@@ -22,7 +22,7 @@
     text-decoration: none;
     flex-grow: 1;
 }
-.tabs-triggers__item--active{
+.tabs-triggers__item.active{
     background-color: #eee;
 }
 
@@ -36,7 +36,7 @@
     background-color: #eee;
     padding: 40px 20px;
 }
-.tabs-content__item--active{
+.tabs-content__item.active{
     display: block;
 }
 /* === [END]Tabs === */

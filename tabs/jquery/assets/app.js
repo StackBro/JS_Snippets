@@ -1,11 +1,13 @@
 $(document).ready(function(){
-    $('.tabs-triggers__item').click(function(e){
+    let tabToggleItem = $('.tabs-triggers__item');
+    let tabToggleContent = $('.tabs-content__item');
+    tabToggleItem.click(function(e){
         e.preventDefault();
-        $('.tabs-triggers__item').removeClass('tabs-triggers__item--active');
-        $('.tabs-content__item').removeClass('tabs-content__item--active');
+        tabToggleItem.removeClass('active');
+        tabToggleContent.removeClass('active');
 
-        $(this).addClass('tabs-triggers__item--active');
+        $(this).addClass('active');
 
-        $($(this).attr('href')).addClass('tabs-content__item--active')
+        $($(this).attr('href')).addClass('active')
     });
 });
