@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+}
+
+/* === [START]Tabs === */
+.tabs
+{}
+.tabs-triggers
+{
+    display: flex;
+}
+.tabs-triggers__item
+{
+    color: #000;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    flex-grow: 1;
+}
+.tabs-triggers__item.active{
+    background-color: #eee;
+}
+
+.tabs-content
+{
+
+}
+.tabs-content__item
+{
+    display: none;
+    background-color: #eee;
+    padding: 40px 20px;
+}
+.tabs-content__item.active{
+    display: block;
+}
+/* === [END]Tabs === */
