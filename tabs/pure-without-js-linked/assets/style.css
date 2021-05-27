@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 100%;
+}
+
+/* === [START]Tabs === */
+.tabs-container{
+    display: flex;
+    order: -1;
+}
+.tabs-wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.tab-link{
+    text-align: center;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: #000;
+    flex-grow: 1;
+}
+.tab-content{
+    display: none;
+    padding: 20px;
+    background-color: #eee;
+}
+
+.tab-content:target{
+    display: block;
+}
+.tab-content-1:target ~ .tabs-container .tab-link-1,
+.tab-content-2:target ~ .tabs-container .tab-link-2,
+.tab-content-3:target ~ .tabs-container .tab-link-3,
+.tab-content-4:target ~ .tabs-container .tab-link-4
+{
+    background-color: #eee;
+}
+/* === [END]Tabs === */
