@@ -1,0 +1,32 @@
+[
+  {
+    "rank": "1",
+    "city": "Moscow",
+    "population": 600,
+    "country": "Russia"
+  },
+  {
+    "rank": "2",
+    "city": "Berlin",
+    "population": 200,
+    "country": "German"
+  },
+  {
+    "rank": "3",
+    "city": "Munich",
+    "population": 100,
+    "country": "Germany"
+  },
+  {
+    "rank": "5",
+    "city": "Osh",
+    "population": 350,
+    "country": "Kyrgyzstan"
+  },
+  {
+    "rank": "6",
+    "city": "St. Petersburg",
+    "population": 500,
+    "country": "Russia"
+  }
+]
